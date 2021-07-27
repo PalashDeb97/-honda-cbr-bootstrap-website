@@ -1,0 +1,28 @@
+/* import fonts from font.css file */
+@import url(./css/fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styles */
+@import url(./partials/_global.css);
+
+/* ----------- start header area ----------- */
+.header-area {
+  background: #264653;
+}
+
+.header-area .purchase-side .left-side .left-side-text > p {
+  font: normal 300 14px/22px var(--poppins);
+  color: #e0e0e0;
+}
+
+.header-area .purchase-side .left-side .left-side-text > h1 {
+  font: normal 600 48px/72px var(--poppins);
+}
+
+.header-area .purchase-side .left-side .left-side-text .btn-modal {
+  font: normal 500 16px/24px var(--poppins);
+  padding: 10px 46px;
+  background: #e76f51;
+}
