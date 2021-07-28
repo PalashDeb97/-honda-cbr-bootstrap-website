@@ -8,17 +8,18 @@
 @import url(./partials/_global.css);
 
 /* ----------- start header area ----------- */
+.header-area .navbar .nav-right > ul > button {
+  font: normal 500 16px/24px var(--poppins);
+  padding: 8px 36px;
+  background: #e76f51;
+}
+
 .header-area {
   background: #264653;
 }
 
 .header-area .purchase-side .left-side .left-side-text > p {
-  font: normal 300 14px/22px var(--poppins);
   color: #e0e0e0;
-}
-
-.header-area .purchase-side .left-side .left-side-text > h1 {
-  font: normal 600 48px/72px var(--poppins);
 }
 
 .header-area .purchase-side .left-side .left-side-text .btn-modal {
@@ -26,3 +27,108 @@
   padding: 10px 46px;
   background: #e76f51;
 }
+/* ----------- end header area ----------- */
+
+/* ----------- start main area ----------- */
+/* fetured bikes section */
+.main-area .fetured-bikes-section .img-side .img-1,
+.img-3 {
+  filter: grayscale(1);
+}
+
+/* happy clients section */
+.main-area .happy-clients-section .happy-text-title span {
+  color: #e76f51;
+}
+
+.main-area .happy-clients-section .happy-img-title .card-area {
+  padding: 40px 32px;
+}
+
+.main-area .happy-clients-section .happy-img-title .card-area > img {
+  width: 149px;
+  height: 149px;
+}
+
+.main-area
+  .happy-clients-section
+  .happy-img-title
+  .card-area
+  .card-text-area
+  p {
+  font: normal 400 16px/26px var(--poppins);
+  color: #6c6c6c;
+}
+
+.main-area
+  .happy-clients-section
+  .happy-img-title
+  .card-area
+  .card-text-area
+  .icon {
+  color: #e76f51;
+}
+
+.main-area
+  .happy-clients-section
+  .happy-img-title
+  .card-area
+  .card-text-area
+  .regina-h6 {
+  color: #23a6f0;
+}
+
+.main-area
+  .happy-clients-section
+  .happy-img-title
+  .card-area
+  .card-text-area
+  .banker-h6 {
+  color: #252b42;
+}
+
+/* questions area */
+.main-area .questions-area .questions-text-title span {
+  color: #e76f51;
+}
+
+.main-area .questions-area .right-questions-text .questions h2 > button > h5 {
+  font: normal 600 20px/28px var(--poppins);
+  color: #383838;
+}
+
+.main-area .questions-area .right-questions-text .ans .ans-text > p {
+  font: normal 400 16px/28px var(--poppins);
+  color: #7e848c;
+}
+
+/* aggressively area */
+.main-area .aggressively-area .aggressively .aggressively-text > h1 {
+  font: normal 600 45px/52px var(--poppins);
+  color: #e76f51;
+}
+
+.main-area .aggressively-area .aggressively .aggressively-text > p {
+  font: normal 400 16px/28px var(--poppins);
+  color: #7e848c;
+}
+
+.main-area .aggressively-area .aggressively .aggressively-text > button {
+  font: normal 600 16px/24px var(--poppins);
+  padding: 10px 46px;
+  background: #e76f51;
+}
+
+/* specifications area */
+.main-area
+  .specifications-area
+  .specifications
+  .right-side-specifications
+  .specifications-text
+  > h5 {
+  color: #e76f51;
+  font-weight: bold;
+  font-family: var(--poppins);
+}
+
+/* ----------- end main area ----------- */

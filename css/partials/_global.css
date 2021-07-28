@@ -1,0 +1,11 @@
+.text-h1 {
+  font: normal 600 42px/72px var(--poppins);
+}
+
+.text-para {
+  font: normal 300 14px/22px var(--poppins);
+}
+
+.font-poppins {
+  font-family: var(--poppins);
+}
